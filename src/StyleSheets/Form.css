@@ -1,0 +1,64 @@
+.from{
+    text-align: center;
+}
+
+.input{
+    color: gray;
+    font-family: 'XMYekanRegular';
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 27%;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1.5px solid #DED4CA;
+    border-radius: 7px;
+    outline: none;
+    text-align: center;
+}
+.input:focus{
+    border: 1.5px solid black;
+}
+.inline{
+    font-family: 'XMYekanRegular';
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    left: 44.5%;
+    text-align: center;
+    margin-top: -12px;
+}
+label:nth-of-type(2){
+    margin-top: 10px;
+}
+label:nth-of-type(3){
+    margin-top: 10px;
+}
+input[type="button"]{
+    font-family: 'XMYekanRegular';
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 30%;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1.5px solid #F6EFEE;
+    background-color: #00001a;
+    border-radius: 7px;
+    outline: none;
+    text-align: center;
+    color: white;
+}
+
+input[type="button"]:hover{
+    background-color: #000033;
+    border: 1.5px solid #000033;
+}
+input[type="radio"]{
+   display: flex;
+}

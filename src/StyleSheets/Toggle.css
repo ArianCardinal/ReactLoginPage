@@ -1,0 +1,57 @@
+.switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  overflow: hidden;
+    text-align: center;
+    font-family: 'XMYekanRegular';
+    
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.switch-field label {
+  display: inline-block;
+  width: 150px;
+  color:gray;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 20px;
+  border: none;
+  transition: all 0.1s ease-in-out;
+  border-radius: 30px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #FFD38B;
+    color: #FF9028;
+    box-shadow: none;
+    font-weight: bold;
+}
+.dot {
+
+    font-size: 13px;
+    height: 17px;
+    width: 17px;
+    background-color: #FF9028;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: -25px;
+  }

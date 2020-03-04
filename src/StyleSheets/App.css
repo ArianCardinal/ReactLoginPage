@@ -1,0 +1,11 @@
+.userimage{
+   width:  125px;
+   height:  125px;
+   margin: auto;
+   margin-top: 70px;
+   position: block;
+}
+
+.container{
+  text-align: center;
+}
